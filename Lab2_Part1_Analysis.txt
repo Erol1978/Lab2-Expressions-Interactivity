@@ -1,0 +1,19 @@
+Result 1:
+Output: Result 1: 2
+This is not 2.4 because both numbers are integers, so C++ does integer division and removes the decimal.
+
+Result 2:
+Output: Result 2: 2
+The % operator gives the remainder of a division. 12 divided by 5 leaves a remainder of 2.
+
+Result 3:
+Output: Result 3: 3.33333
+This happens because x and y are doubles, so the division keeps the decimal value.
+
+Result 4:
+Output: Result 4: 6.33333
+The sum of a, b, and c is divided by a double value, so the result is a decimal number.
+
+Result 5:
+Output: Result 5: 2.4
+static_cast converts b to a double, so the division is done using decimals instead of integers.
